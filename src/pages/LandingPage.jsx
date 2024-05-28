@@ -1,8 +1,13 @@
 import React from 'react'
+import '../Styles/LandingPage.css';
 
 const LandingPage = () => {
   return (
-    <div>This is the landing page.</div>
+    <div className='landing-page'>
+      <div className='question'>
+        Which genre do you like?
+      </div>
+    </div>
   )
 }
 
