@@ -16,7 +16,7 @@ export const actionMovies = [
         rating: "9.0/10",
         director: "Christopher Nolan",
         stars:"Christian Bale - Heath Ledger - Aaron Eckhart",
-        rank: 1
+        rank: "🥇"
     },
     {
         name: "Pulp Fiction",
@@ -24,7 +24,7 @@ export const actionMovies = [
         rating: "8.9/10",
         director: "Quentin Tarantino",
         stars:"John Travolta - Uma Thurman - Samuel L. Jackson",
-        rank: 2
+        rank: "🥈"
     },
     {
         name: "The Lord of the Rings: The Fellowship of the Ring",
@@ -32,7 +32,7 @@ export const actionMovies = [
         rating: "8.9/10",
         director: "Peter Jackson",
         stars:"Elijah Wood - Ian McKellen - Orlando Bloom",
-        rank: 3
+        rank: "🥉"
     },
     {
         name: "Inception",

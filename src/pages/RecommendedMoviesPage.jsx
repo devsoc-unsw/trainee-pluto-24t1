@@ -33,7 +33,7 @@ const RecommendedMoviesPage = () => {
   return (
     <div className='Recommended-page'>
       <div className='title'>
-        Recommendations
+        - Recommendations -
       </div>
       <div className='genre'>
         Action 💥
