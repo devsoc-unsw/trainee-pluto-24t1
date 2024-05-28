@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { actionMovies } from '../images/recommended/action'; // Adjust the path as needed
+import { actionMovies } from '../images/recommended/action'; 
 import '../Styles/RecommendedMoviesPage.css';
 
 const RecommendedMoviesPage = () => {

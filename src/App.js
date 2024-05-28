@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div>
-      {showNavbar && <Navbar />}
+      { <Navbar />}
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/recommended" element={<RecommendedMoviesPage />} />
