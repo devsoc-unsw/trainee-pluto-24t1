@@ -12,7 +12,18 @@
     z-index: 1000;
   }
   
-  
+  .left {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #646464;
+  }
+
+  .right {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #646464;
+  }
+
   .navbar .middle {
     display: flex;
     align-items: center;

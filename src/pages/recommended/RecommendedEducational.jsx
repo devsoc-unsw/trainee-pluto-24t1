@@ -40,10 +40,10 @@ const RecommendedEducational = () => {
           💨 Navbar is gone 💨 & 🚫 Copy and paste has been disabled also back button does not work 🚫
         </div>
         <div className='question'>
-          Who the f**k watches educational!?!?!?!
+          Who the f**k watches educational movies!?!?!?!
         </div>
         <div className='type'>
-          Type "I am sorry, I will not watch educational movies" to leave the page ☝🤓 
+          Type "I am sorry, I will not watch educational movies" to leave the page  
         </div>
         <div className='input-container'>
           <input 
