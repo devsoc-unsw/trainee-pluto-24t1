@@ -61,6 +61,21 @@ const RecommendedMoviesPage = () => {
           <div className="arrow-top"></div>
           <div className="arrow-bottom"></div>
         </div>
+        <div className='description'>
+          The action film is a film genre that predominantly 
+          features chase sequences, fights, shootouts, explosions, 
+          and stunt work. The specifics of what constitutes an action 
+          film has been in scholarly debate since the 1980s.
+        </div>
+        <div class="button-icon">
+          <div class="icon">
+            🔪
+          </div>
+          <div class="cube">
+            <span class="side front">Thriller</span>
+            <span class="side top">Feel the suspense</span>
+          </div>
+        </div>
       </div>
     </div>
   );

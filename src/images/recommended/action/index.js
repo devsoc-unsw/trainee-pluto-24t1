@@ -46,7 +46,7 @@ export const actionMovies = [
         name: "Fight Club",
         image: fightClub,
         rating: "8.8/10",
-        director: "",
+        director: "David Fincher",
         stars:"Brad Pitt - Edward Norton - Meat Loaf",
         rank: 5
     },

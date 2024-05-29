@@ -4,7 +4,8 @@ import '../Styles/Footer.css';
 const Footer = () => {
   return (
     <div className="footer">
-      <p> &copy; Dev-Soc Training program  2024</p>
+      <p1>Team Pluto 🌑</p1>
+      <p> &copy; Dev-Soc Training program - 2024</p>
     </div>
   );
 };
