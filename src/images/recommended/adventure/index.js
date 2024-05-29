@@ -9,7 +9,7 @@ import Hope from "./Hope.jpg";
 import Terminator from "./Terminator.jpg";
 import Future from "./Future.jpg";
 
-export const adventureMovies = [
+export const actionMovies = [
   {
     name: "The Dark Knight",
     image: Knight,

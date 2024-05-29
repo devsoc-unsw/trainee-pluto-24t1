@@ -4,7 +4,7 @@ import Prestige from './prestige.jpg';
 import Shutter from './shutter.jpg';
 import Parasite from './parasite.jpg';
 import Gone from './gone.jpg';
-import Old from './old.jpg';
+import Old from './oldboy.jpg';
 import Black from './black.jpg';
 import Departed from './departed.jpg';
 import perfect from './perfect.jpg';

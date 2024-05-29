@@ -1,6 +1,6 @@
 import Deadpool from "./Deadpool.jpg";
 import Galaxy from "./Galaxy.jpg";
-import Breakfast from "./Breakfast";
+import Breakfast from "./Breakfast.jpg";
 import Fuzz from "./Fuzz.jpg";
 import Hangover from "./Hangover.jpg";
 import Office from "./Office.jpg";
@@ -9,7 +9,7 @@ import Kick from "./Kick.jpg";
 import Bucket from "./Bucket.jpg";
 import Men from "./Men.jpg";
 
-export const comedyMovies = [
+export const actionMovies = [
   {
     name: "Deadpool",
     image: Deadpool,

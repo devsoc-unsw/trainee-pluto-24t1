@@ -9,7 +9,7 @@ import Nest from "./Nest.jpg";
 import Saving from "./Saving.jpg";
 import Green from "./Green.jpg";
 
-export const dramaMovies = [
+export const actionMovies = [
   {
     name: "The Shawshank Redemption",
     image: Shawshank,

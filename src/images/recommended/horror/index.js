@@ -9,7 +9,7 @@ import Land from "./Land.jpg";
 import Dominion from "./Dominion.jpg";
 import Padikkadha from "./Padikkadha.jpg";
 
-export const horrorMovies = [
+export const actionMovies = [
   {
     name: "Grinders",
     image: Grinders,
