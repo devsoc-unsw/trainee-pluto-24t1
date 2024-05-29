@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../../Styles/recommended/RecommendedEducational.css';
 
@@ -18,11 +18,26 @@ const RecommendedEducational = () => {
     e.preventDefault();
   };
 
+  const disableBackButton = () => {
+    window.history.pushState(null, null, window.location.href);
+    window.addEventListener('popstate', function () {
+      window.history.pushState(null, null, window.location.href);
+    });
+  };
+
+  useEffect(() => {
+    disableBackButton();
+
+    return () => {
+      window.removeEventListener('popstate', disableBackButton);
+    };
+  }, []);
+
   return (
     <div className='educational'>
       <div className='content-container'>
         <div className='no'>
-          💨 Navbar is gone 💨 & 🚫 Copy and paste has been disabled 🚫
+          💨 Navbar is gone 💨 & 🚫 Copy and paste has been disabled also back button does not work 🚫
         </div>
         <div className='question'>
           Who the f**k watches educational!?!?!?!

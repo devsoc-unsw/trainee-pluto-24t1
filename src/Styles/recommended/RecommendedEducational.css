@@ -78,7 +78,7 @@
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
-  width: 120%; 
+  width: 160%; 
   overflow: hidden; 
   text-overflow: ellipsis; 
 }
