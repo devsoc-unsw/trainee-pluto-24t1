@@ -7,7 +7,11 @@ const Header = ({ genres, selectedGenre, onGenreChange }) => {
       <h1>Genres {'>'} {selectedGenre}</h1>
       <div className="genres">
         {genres.map((genre) => (
-          <span key={genre} onClick={() => onGenreChange(genre)}>
+          <span
+            key={genre}
+            className={selectedGenre === genre ? 'selected' : ''}
+            onClick={() => onGenreChange(genre)}
+          >
             {genre}
           </span>
         ))}

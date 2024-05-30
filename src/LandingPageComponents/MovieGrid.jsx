@@ -15,7 +15,7 @@ const MovieGrid = ({ movies, bigPoster, onLeftArrowClick, onRightArrowClick }) =
       <div className="large-movie-card">
         <img src={bigPoster} alt="Large Poster" />
         <div className="overlay">
-          <div className="arrow" onClick={onRightArrowClick}>{'>'}</div>
+          <div className="myarrow" onClick={onRightArrowClick}>{'>'}</div>
         </div>
       </div>
       {/* <NavigationArrow direction="right" onClick={onRightArrowClick} /> */}
