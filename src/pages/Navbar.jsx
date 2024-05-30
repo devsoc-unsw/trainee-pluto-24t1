@@ -14,7 +14,7 @@ const Navbar = () => {
                 <Link to="/"> Home </Link>
                 <Link to="/recommended/action"> Recommended </Link>
                 <Link to="/rate"> Rate </Link>
-                <Link to="/allmovies"> Movies </Link>
+                {/* <Link to="/allmovies"> Movies </Link> */}
             </div>
             <div className='right'>
             Team Pluto 🌑

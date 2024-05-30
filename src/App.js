@@ -29,7 +29,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/recommended/action" element={<RecommendedMoviesPage />} />
         <Route path="/rate" element={<RateMoviePage />} />
-        <Route path="/allmovies" element={<AllMoviesPage />} />
+        {/* <Route path="/allmovies" element={<AllMoviesPage />} /> */}
         <Route path="/recommended/thriller" element={<Thriller/>} />
         <Route path="/recommended/adventure" element={<Adventure/>} />
         <Route path="/recommended/comedy" element={<Comedy/>} />
