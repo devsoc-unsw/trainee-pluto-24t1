@@ -23,5 +23,7 @@
   
   .movie-card:hover {
     transform: scale(1.05);
+    border: white 5px solid;
+    border-radius: 10px;
   }
   

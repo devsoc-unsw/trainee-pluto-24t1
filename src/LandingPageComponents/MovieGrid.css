@@ -48,6 +48,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border-radius: 10px;
 }
 
 .large-movie-card .overlay .myarrow {
@@ -61,6 +62,8 @@
 
 .large-movie-card:hover {
   transform: scale(1.05);
+  border: white 5px solid;
+  border-radius: 10px;
 }
 
 .large-movie-card .myarrow:hover {
