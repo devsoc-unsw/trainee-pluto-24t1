@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
-import LandingPage from './pages/LandingPage/LandingPage';
+import Home from './pages/Home';
 import RateMoviePage from './pages/RateMoviePage/RateMoviePage';
 import RecommendedMoviesPage from './pages/recommended/RecommendedAction';
-// import AllMoviesPage from './pages/AllMoviesPage';
 import Navbar from './pages/Navbar';
+import Start from './pages/name';
 import Footer from './pages/Footer'
 import Thriller from './pages/recommended/RecommendedThriller';
 import Adventure from './pages/recommended/RecommendedAdventure';
@@ -20,16 +20,17 @@ import './App.css';
 
 function App() {
   const location = useLocation();
-  const showNavbar = location.pathname !== '/recommended/education';
+  const showNavbar = location.pathname !== '/recommended/education' && location.pathname !== '/' ;
+  const showFooter = location.pathname !== '/';
 
   return (
     <div>
       {showNavbar && <Navbar />}
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<Start />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/recommended/action" element={<RecommendedMoviesPage />} />
         <Route path="/rate" element={<RateMoviePage />} />
-        {/* <Route path="/allmovies" element={<AllMoviesPage />} /> */}
         <Route path="/recommended/thriller" element={<Thriller/>} />
         <Route path="/recommended/adventure" element={<Adventure/>} />
         <Route path="/recommended/comedy" element={<Comedy/>} />
@@ -41,7 +42,7 @@ function App() {
         <Route path="/recommended/anime" element={<Anime/>} />
         <Route path="/recommended/sciencefiction" element={<ScienceFiction/>} />
       </Routes>
-      <Footer />
+      {showFooter && <Footer />}
     </div>
   );
 }

@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import '../../Styles/recommended/RecommendedEducational.css';
+import { NameContext } from '../../NameContext';
 
 const RecommendedEducational = () => {
+  const { name } = useContext(NameContext);
   const [input, setInput] = useState('');
   const requiredPhrase = "I am sorry, I will not watch educational movies";
 
@@ -40,7 +42,7 @@ const RecommendedEducational = () => {
           💨 Navbar is gone 💨 & 🚫 Copy and paste has been disabled also back button does not work 🚫
         </div>
         <div className='question'>
-          Who the f**k watches educational movies!?!?!?!
+          {name}, Who the f**k watches educational movies!?!?!?!
         </div>
         <div className='type'>
           Type "I am sorry, I will not watch educational movies" to leave the page  
@@ -57,7 +59,7 @@ const RecommendedEducational = () => {
           />
           {input === requiredPhrase && (
             <div className="back-home">
-              <Link to="/">☝🤓</Link>
+              <Link to="/home">☝🤓</Link>
             </div>
           )}
         </div>

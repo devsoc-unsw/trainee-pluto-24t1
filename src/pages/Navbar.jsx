@@ -11,7 +11,7 @@ const Navbar = () => {
             Team Pluto 🌑
             </div>
             <div className='middle'>
-                <Link to="/"> Home </Link>
+                <Link to="/home"> Home </Link>
                 <Link to="/recommended/action"> Recommended </Link>
                 <Link to="/rate"> Rate </Link>
                 {/* <Link to="/allmovies"> Movies </Link> */}
