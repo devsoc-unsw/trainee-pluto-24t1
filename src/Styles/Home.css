@@ -13,7 +13,9 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   height: 100vh;
-  padding: 110px 140px;
+  padding: 0 100px;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -32,14 +34,14 @@ h2 {
 
 .action {
   margin-top: 50px;
-  margin-left: 60px;
+  margin-left: 90px;
   margin-right: 30px;
 }
 
 .glow-on-hover {
   width: 250px;
   height: 60px;
-  margin: 5px;
+  margin: 10px;
   border: none;
   outline: none;
   color: #fff;
