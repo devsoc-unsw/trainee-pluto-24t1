@@ -16,6 +16,7 @@
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
     color: #646464;
+    margin-left: -400px;
 }
 
 .right {
@@ -28,6 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center; 
+    margin-left: 300px;
 }
 
 .navbar .middle a {

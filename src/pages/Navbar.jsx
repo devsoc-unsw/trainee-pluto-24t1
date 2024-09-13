@@ -35,8 +35,6 @@ const Navbar = () => {
               </div>
             )}
           </div>
-          <Link to="/rate"> Rate </Link>
-          <Link to="/allmovies"> Upcoming </Link>
         </div>
       </div>
     </div>
