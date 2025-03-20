@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trainee-pluto-24t1/static/css/main.d8187ce5.css",
-    "main.js": "/trainee-pluto-24t1/static/js/main.da679d73.js",
+    "main.js": "/trainee-pluto-24t1/static/js/main.adbaf910.js",
     "static/media/leave.jpg": "/trainee-pluto-24t1/static/media/leave.8165ca8e3fc37c67cce6.jpg",
     "static/media/the-dark-knight.jpg": "/trainee-pluto-24t1/static/media/the-dark-knight.57b8bcd34cd9935800dd.jpg",
     "static/media/matrix.jpg": "/trainee-pluto-24t1/static/media/matrix.874c36d00d9ec6af151c.jpg",
@@ -103,10 +103,10 @@
     "static/media/prestige.jpg": "/trainee-pluto-24t1/static/media/prestige.0530d8482b599861fe6a.jpg",
     "index.html": "/trainee-pluto-24t1/index.html",
     "main.d8187ce5.css.map": "/trainee-pluto-24t1/static/css/main.d8187ce5.css.map",
-    "main.da679d73.js.map": "/trainee-pluto-24t1/static/js/main.da679d73.js.map"
+    "main.adbaf910.js.map": "/trainee-pluto-24t1/static/js/main.adbaf910.js.map"
   },
   "entrypoints": [
     "static/css/main.d8187ce5.css",
-    "static/js/main.da679d73.js"
+    "static/js/main.adbaf910.js"
   ]
 }
